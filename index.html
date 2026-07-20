@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&amp;family=Instrument+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #ffffff; }
+  ::selection { background: #3a241e; color: #f7efe8; }
+  a { color: #3a241e; text-decoration: none; }
+  a:hover { color: #8a655b; }
+  html { scroll-behavior: smooth; }
+</style>
+</helmet>
+<div style="background:#ffffff; color:#3a241e; font-family:'Instrument Sans',sans-serif; min-height:100%; -webkit-font-smoothing:antialiased;">
+
+  <!-- NAV -->
+  <div style="position:sticky; top:0; z-index:20; background:rgba(250,232,224,0.88); backdrop-filter:blur(10px); border-bottom:1px solid #ecdcd2;">
+    <div style="max-width:1080px; margin:0 auto; padding:18px 40px; display:flex; align-items:center; justify-content:space-between;">
+      <a href="#top" style="font-family:'Newsreader',serif; font-size:19px; font-weight:500; letter-spacing:-0.01em;">Emily Cutler</a>
+      <div style="display:flex; gap:32px; font-size:14.5px; color:#8a655b;">
+        <a href="#work" style="color:inherit;">Work</a>
+        <a href="#approach" style="color:inherit;">Approach</a>
+        <a href="#about" style="color:inherit;">About</a>
+        <a href="#contact" style="color:inherit;">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div style="position:relative; overflow:hidden;">
+  <img src="uploads/wash-opt.png" alt="" style="position:absolute; top:-90px; right:-140px; width:min(680px,58vw); pointer-events:none; user-select:none; z-index:0; opacity:0.68; -webkit-mask-image:linear-gradient(to bottom, #000 28%, transparent 66%); mask-image:linear-gradient(to bottom, #000 28%, transparent 66%);">
+  <div id="top" style="position:relative; z-index:1; max-width:1080px; margin:0 auto; padding:120px 40px 90px;">
+    <div style="font-family:'IBM Plex Mono',monospace; font-size:12.5px; letter-spacing:0.08em; text-transform:uppercase; color:#8f5f52; font-weight:500; margin-bottom:34px;">EMILY CUTLER · SENIOR PRODUCT DESIGNER</div>
+    <h1 style="font-family:'Newsreader',serif; font-weight:400; font-size:62px; line-height:1.08; letter-spacing:-0.02em; max-width:16ch; text-wrap:pretty;">I design products, and I design how we build them</h1>
+    <p style="font-size:19px; line-height:1.6; color:#5c463f; max-width:56ch; margin-top:30px; text-wrap:pretty;">I'm a senior product designer with over 10 years on complex B2B and B2C SaaS. I care as much about how a team works as what it ships. Currently working on the hard problems in proptech.</p>
+    <div style="display:flex; gap:14px; margin-top:40px; flex-wrap:wrap;">
+      <a href="#work" style="background:#3a241e; color:#f7efe8; padding:13px 26px; border-radius:999px; font-size:15px; font-weight:500;">View selected work</a>
+      <a href="#contact" style="border:1px solid #e0cbbf; padding:13px 26px; border-radius:999px; font-size:15px; font-weight:500;">Get in touch</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- WORK -->
+  <div id="work" style="max-width:1080px; margin:0 auto; padding:60px 40px 40px;">
+    <div style="display:flex; align-items:baseline; justify-content:space-between; border-bottom:1px solid #ecdcd2; padding-bottom:20px; margin-bottom:12px;">
+      <h2 style="font-family:'Newsreader',serif; font-weight:400; font-size:34px; letter-spacing:-0.01em;">Selected work</h2>
+      <span style="font-family:'IBM Plex Mono',monospace; font-size:12.5px; color:#a5837a;">03 case studies</span>
+    </div>
+
+    <div style="display:grid; grid-template-columns:88px 1fr auto; gap:40px; align-items:center; padding:38px 0; border-bottom:1px solid #ecdcd2;">
+      <span style="font-family:'IBM Plex Mono',monospace; font-size:13px; color:#a5837a; align-self:start; padding-top:6px;">01</span>
+      <div>
+        <div style="display:flex; gap:10px; margin-bottom:12px; flex-wrap:wrap;">
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a655b; border:1px solid #e4d3c8; border-radius:999px; padding:4px 11px;">Discovery</span>
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a655b; border:1px solid #e4d3c8; border-radius:999px; padding:4px 11px;">UX DESIGN</span>
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a655b; border:1px solid #e4d3c8; border-radius:999px; padding:4px 11px;">Adoption</span>
+        </div>
+        <h3 style="font-family:'Newsreader',serif; font-weight:400; font-size:30px; line-height:1.15; letter-spacing:-0.01em; margin-bottom:12px;">Property management workflow design</h3>
+        <p style="font-size:16.5px; line-height:1.6; color:#5c463f; max-width:60ch; text-wrap:pretty;">Designed and managed release of core customer lifecycle management workflows, closing product gaps and halving related support tickets per month.</p>
+      </div>
+      <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a655b; border:1px solid #e4d3c8; border-radius:999px; padding:6px 13px; white-space:nowrap;">Available on request</span>
+    </div>
+
+    <div style="display:grid; grid-template-columns:88px 1fr auto; gap:40px; align-items:center; padding:38px 0; border-bottom:1px solid #ecdcd2;">
+      <span style="font-family:'IBM Plex Mono',monospace; font-size:13px; color:#a5837a; align-self:start; padding-top:6px;">02</span>
+      <div>
+        <div style="display:flex; gap:10px; margin-bottom:12px; flex-wrap:wrap;">
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a655b; border:1px solid #e4d3c8; border-radius:999px; padding:4px 11px;">Discovery</span>
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a655b; border:1px solid #e4d3c8; border-radius:999px; padding:4px 11px;">UX DESIGN</span><span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a655b; border:1px solid #e4d3c8; border-radius:999px; padding:4px 11px;">Pilot strategy</span>
+          
+        </div>
+        <h3 style="font-family:'Newsreader',serif; font-weight:400; font-size:30px; line-height:1.15; letter-spacing:-0.01em; margin-bottom:12px;">Property page redesign</h3>
+        <p style="font-size:16.5px; line-height:1.6; color:#5c463f; max-width:60ch; text-wrap:pretty;">Restructured the information architecture of the platform's most complex and heavily trafficked screen, resolving 5 years of accumulated feature layering into a hierarchy that held up under user testing.</p>
+      </div>
+      <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a655b; border:1px solid #e4d3c8; border-radius:999px; padding:6px 13px; white-space:nowrap;">Available on request</span>
+    </div>
+
+    <div style="display:grid; grid-template-columns:88px 1fr auto; gap:40px; align-items:center; padding:38px 0; border-bottom:1px solid #ecdcd2;">
+      <span style="font-family:'IBM Plex Mono',monospace; font-size:13px; color:#a5837a; align-self:start; padding-top:6px;">03</span>
+      <div>
+        <div style="display:flex; gap:10px; margin-bottom:12px; flex-wrap:wrap;">
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a655b; border:1px solid #e4d3c8; border-radius:999px; padding:4px 11px;">DISCOVERY</span>
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a655b; border:1px solid #e4d3c8; border-radius:999px; padding:4px 11px;">SERVICE DESIGN</span>
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a655b; border:1px solid #e4d3c8; border-radius:999px; padding:4px 11px;">UX DESIGN</span>
+        </div>
+        <h3 style="font-family:'Newsreader',serif; font-weight:400; font-size:30px; line-height:1.15; letter-spacing:-0.01em; margin-bottom:12px;">Compliance management system</h3>
+        <p style="font-size:16.5px; line-height:1.6; color:#5c463f; max-width:60ch; text-wrap:pretty;">Designed the end-to-end flow of a new safety compliance management interface for a new partnership program, increasing monthly revenue.</p>
+      </div>
+      <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:#8a655b; border:1px solid #e4d3c8; border-radius:999px; padding:6px 13px; white-space:nowrap;">Available on request</span>
+    </div>
+  </div>
+
+  <!-- APPROACH -->
+  
+
+  <!-- ABOUT -->
+  <div id="approach" style="background:#fbeae1; color:#3a241e; margin-top:80px;">
+    <div style="max-width: 1080px; margin: 0 auto; padding: 100px 40px; position: relative">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:12.5px; letter-spacing:0.08em; text-transform:uppercase; color:#8f5f52; font-weight:500; margin-bottom:28px;">HOW I WORK · DISCOVERY TO DELIVERY</div>
+      <h2 style="font-family:'Newsreader',serif; font-weight:400; font-size:44px; line-height:1.12; letter-spacing:-0.015em; max-width:20ch; text-wrap:pretty;">Design is how we move from fuzzy problems to shipped, proven solutions.</h2>
+      <p style="font-size:18px; line-height:1.65; color:#5c463f; max-width:58ch; margin-top:24px; text-wrap:pretty;">I see design as a series of questions, and my job as a designer is to bring the clarity and confidence to answer them well, which means getting the right people aligned on what the problem or opportunity truly is, so we can solve it together. That work is design-led but deeply collaborative: product, engineering and key stakeholders are all in it with me, with users at the heart of our decisions.</p>
+
+      
+    <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:1px; background:#f0dccf; margin-top:60px; border:1px solid #f0dccf;">
+        <sc-for list="{{ steps }}" as="s" hint-placeholder-count="4">
+          <div style="background:#ffffff; padding:38px 34px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:12.5px; color:#8a655b; margin-bottom:16px;">{{ s.num }}</div>
+            <h3 style="font-family:'Newsreader',serif; font-weight:400; font-size:23px; margin-bottom:12px;">{{ s.title }}</h3>
+            <p style="font-size:15.5px; line-height:1.6; color:#5c463f; text-wrap:pretty;">{{ s.desc }}</p>
+            <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:20px;">
+              <sc-for list="{{ s.tags }}" as="t" hint-placeholder-count="0">
+                <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.04em; color:#8a655b; border:1px solid #e4d3c8; border-radius:100px; padding:6px 12px;">{{ t }}</span>
+              </sc-for>
+            </div>
+          </div>
+        </sc-for>
+      </div></div>
+  </div><div id="about" style="max-width:1080px; margin:0 auto; padding:100px 40px;">
+    <div style="display:grid; grid-template-columns:1fr 1.4fr; gap:70px; align-items:start;">
+      <div>
+        <div style="width:100%; aspect-ratio:4/5; border-radius:8px; overflow:hidden; border:1px solid #e4d3c8; background:#efe0d6;">
+          <img src="uploads/portrait-opt.jpg" alt="Portrait of Emily Cutler" style="width:100%; height:100%; object-fit:cover; display:block;">
+        </div>
+      </div>
+      <div>
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:12.5px; letter-spacing:0.08em; text-transform:uppercase; color:#8f5f52; font-weight:500; margin-bottom:24px;">About</div>
+        <h2 style="font-family:'Newsreader',serif; font-weight:400; font-size:34px; line-height:1.2; letter-spacing:-0.01em; margin-bottom:28px; text-wrap:pretty;">I'm a designer who loves seeing the impact of great design.</h2>
+        <div style="font-size:17px; line-height:1.7; color:#5c463f; display:flex; flex-direction:column; gap:18px; max-width:60ch;">
+          <div><p class="font-claude-response-body break-words whitespace-normal" dir="auto">I've spent fifteen years designing products, and I still get a thrill from seeing a well-crafted solution genuinely improve someone's day. That impact is what drives me and I've learned it's rarely made alone. Great products come from great teams, not individuals.</p></div>
+          <p>So I care as much about how a team works as what it ships — the processes, the systems, the shared ways of working that let good decisions happen again and again. Improving how a team operates is its own kind of design, and I genuinely believe how we work is crucial to the effectiveness of what we make.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div id="contact" style="position:relative; overflow:hidden; border-top:1px solid #ecdcd2; background:#fbeae1;">
+    <img src="uploads/wash-opt.png" alt="" style="position:absolute; bottom:-160px; left:-120px; width:min(560px,50vw); pointer-events:none; user-select:none; z-index:0; opacity:0.6; transform:rotate(180deg); -webkit-mask-image:linear-gradient(to bottom, #000 55%, transparent 92%); mask-image:linear-gradient(to bottom, #000 55%, transparent 92%);">
+    <div style="position:relative; z-index:1; max-width:1080px; margin:0 auto; padding:100px 40px 110px;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:12.5px; letter-spacing:0.08em; text-transform:uppercase; color:#8f5f52; font-weight:500; margin-bottom:28px;">Contact</div>
+      <h2 style="font-family:'Newsreader',serif; font-weight:400; font-size:52px; line-height:1.1; letter-spacing:-0.02em; max-width:18ch; text-wrap:pretty;">Let's talk about the problem you're trying to solve.</h2>
+      <div style="display:flex; gap:14px; margin-top:40px; flex-wrap:wrap;">
+        <a href="mailto:hello@emilycutler.com" style="background:#3a241e; color:#f7efe8; padding:14px 28px; border-radius:999px; font-size:15px; font-weight:500;">hello@emilycutler.com</a>
+        <a href="#" style="border:1px solid #e0cbbf; padding:14px 28px; border-radius:999px; font-size:15px; font-weight:500;">LinkedIn</a>
+        <a href="#" style="border:1px solid #e0cbbf; padding:14px 28px; border-radius:999px; font-size:15px; font-weight:500;">Download CV</a>
+      </div>
+    </div>
+    <div style="border-top:1px solid #f0dccf;">
+      <div style="max-width:1080px; margin:0 auto; padding:26px 40px; display:flex; justify-content:space-between; align-items:center; font-size:13px; color:#8a655b; flex-wrap:wrap; gap:8px;">
+        <span>© 2026 Emily Cutler</span>
+        <span style="font-family:'IBM Plex Mono',monospace;">Designed with intent</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      projects: [
+        {
+          num: "01", href: "ChangeOfSharedTenancy.dc.html", title: "Property management workflow design", live: true,
+          tags: ["Discovery", "Concept design", "Adoption"],
+          desc: "Designed and managed release of core customer lifecycle management workflows, closing product gaps and halving related support tickets per month.",
+        },
+        {
+          num: "02", href: "#", title: "Property page redesign", soon: true,
+          tags: ["Discovery", "Pilot strategy", "Measurement"],
+          desc: "Restructured the information architecture of the platform's most complex and heavily trafficked screen, resolving 5 years of accumulated feature layering into a hierarchy that held up under user testing.",
+        },
+        {
+          num: "03", href: "#", title: "Compliance management system", soon: true,
+          tags: ["Enterprise", "Workflow", "Research"],
+          desc: "Designed the end-to-end flow of a new safety compliance management interface for a new partnership program, increasing monthly revenue.",
+        },
+      ],
+      steps: [
+        { num: "01", title: "Problem definition & research", desc: "Answering: what is the problem or opportunity to be solved? Create clarity and alignment across the business.", tags: ["Discovery planning", "Stakeholder interviews", "Customer research", "Behavioural analytics", "Synthesis"] },
+        { num: "02", title: "Concept design & validation", desc: "Answering: is this solution feasible, and will it actually solve the problem? Prototype promising solutions and test them before committing.", tags: ["Prototyping", "Concept testing", "Feasibility", "Stakeholder review"] },
+        { num: "03", title: "Usability design & testing", desc: "Answering: can our customer actually use it? Refine the design against real behaviour and integrate with our design system.", tags: ["Usability testing", "Interaction design", "Iteration", "Behavioural validation"] },
+        { num: "04", title: "Through to delivery", desc: "Now my role shifts from shaping the work to shepherding it. Keeping the design intact or iterating appropriately.", tags: ["Iteration", "Design QA", "Release planning"] },
+      ],
+      facts: [
+        { stat: "3 phases", label: "Problem, concept, usability — each answering one question" },
+        { stat: "AI-native", label: "Claude Code & Design, Figma, Miro, Mixpanel, Metabase" },
+        { stat: "1st", label: "First designer in the business to ship a release built with AI" },
+      ],
+    };
+  }
+}
+</script>
+</body>
+</html>
